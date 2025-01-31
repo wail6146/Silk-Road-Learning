@@ -1,0 +1,80 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 255, 255, 0.3) ;
+    backdrop-filter: blur(10px) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.syllgin{
+    background: rgba(255, 255, 255, 0.1); /* شفافية الخلفية */
+    backdrop-filter: blur(10px); /* تأثير الضبابية */
+    -webkit-backdrop-filter: blur(10px); /* دعم للمتصفحات القديمة */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* إطار شفاف */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+input{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+}
+.frgpass{
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    padding: 100px 100px;
+    color: RGB(8, 102, 255);
+    padding-bottom: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.cna{
+    display: inline-block;
+    position: relative; /* يجعل العنصر قابل للتحريك */
+    top: 80px; /* تحريك العنصر بمقدار 30px لأسفل */
+    padding: 12px 18px;
+    border: 2px solid RGB(8, 102, 255);
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: RGB(8, 102, 255);
+    font-size: 16px;
+    transition: 0.3s;
+}
+#submit {
+    background-color: RGB(8, 102, 255);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#submit:hover {
+    background-color: RGB(5, 80, 200);
+}
+hr {
+    border: none; /* إزالة الحدود الافتراضية */
+    height: 2px; /* تحديد السماكة */
+    background-color: RGB(224, 227, 230); /* تغيير اللون */
+    width: 80%; /* تحديد عرض الخط */
+    margin: 20px auto; /* إضافة مسافة من الأعلى والأسفل مع محاذاة الخط للمنتصف */
+    border-radius: 5px; /* جعل الأطراف مستديرة */
+    position: relative;
+    top:30px;
+}

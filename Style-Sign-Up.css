@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 255, 255, 0.3) ;
+    backdrop-filter: blur(10px) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter:blur(10px) ;
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+label {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+input[type="submit"] {
+    background: #007BFF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+select{
+ color: black;
+padding: 5px;
+margin: 10px;
+border: 1px solid #ddd;
+border-radius: 8%;
+}
+a:hover{
+    background: #0056b3;
+}
+.login a {
+    text-decoration: none; /* إزالة الخط السفلي */
+    color: white; /* لون النص */
+    background-color: #007bff; /* لون خلفية الزر */
+    padding: 5px 135px; /* مساحة داخلية */
+    border-radius: 8px; /* زوايا دائرية */
+    font-weight: bold; /* جعل الخط عريض */
+    display: inline-block; /* جعله كزر */
+    transition: background 0.3s;
+}
+.or{
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+#submit{
+    font-size: 100%;
+}
